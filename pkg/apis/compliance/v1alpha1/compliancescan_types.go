@@ -48,9 +48,9 @@ const ScanFinalizer = "scan.finalizers.compliance.openshift.io"
 const DefaultRawStorageSize = "1Gi"
 const DefaultStorageRotation = 3
 
-var ErrUnkownScanType = errors.New("Unknown scan type")
+var ErrUnkownScanType = errors.New("unknown scan type")
 
-var ErrUnkownScanerType = errors.New("Unknown scanner type")
+var ErrUnkownScanerType = errors.New("unknown scanner type")
 
 // Represents the status of the compliance scan run.
 type ComplianceScanStatusPhase string
